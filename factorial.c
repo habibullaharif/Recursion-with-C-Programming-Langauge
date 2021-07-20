@@ -9,7 +9,6 @@ int main(void)
 
   printf("%d",ret);
 
-
   return 0;
 }
 
