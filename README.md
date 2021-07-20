@@ -5,6 +5,6 @@
 - 📫 How to reach me -> habibullaharif2520@gmail.com
 
 <!---
-C programming language/Recursion is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+habibullah arif/habibullah arif is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
 --->
