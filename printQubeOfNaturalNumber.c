@@ -5,6 +5,7 @@ void printQubeOfNaturalNumber(int,int);
 int main(void)
 {
   int num; printf("Enter a limit: "); scanf("%d",&num);
+  
   printQubeOfNaturalNumber(1,num);
 
   return 0;
