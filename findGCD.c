@@ -4,8 +4,8 @@ int findGCD(int,int);
 
 int main(void)
 {
-  int a; printf("Enetr first number: ");scanf("%d",&a);
-  int b; printf("Enetr escond number: ");scanf("%d",&b);
+  int a; printf("Enetr first number: "); scanf("%d",&a);
+  int b; printf("Enetr escond number: "); scanf("%d",&b);
 
   int ret = findGCD(a,b);
 
