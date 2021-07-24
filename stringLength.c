@@ -4,8 +4,7 @@ int stringLength(char[],int);
 
 int main(void)
 {
-  char string[64]; printf("Enter a string: ");
-  scanf("%s",string);
+  char string[128]; printf("Enter a string: "); fgets(string, 128, stdin);
 
   int ret = stringLength(string,0);
 
@@ -16,7 +15,8 @@ int main(void)
 
 int stringLength(char string[], int count) {
   if (string[count] == '\0') {
-    return count;
+    return count-1;
+  } else {
+    stringLength(string,count+1);
   }
-  stringLength(string,count+1);
 }
